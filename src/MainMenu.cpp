@@ -1,4 +1,6 @@
 #include "MainMenu.h"
+using namespace std;
+using namespace sf;
 
 MainMenu::MainMenu(float width, float height){
   if(!font.loadFromFile("Fonts/Villa.ttf")){
